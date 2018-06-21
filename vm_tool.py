@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: UTF-8 -*-
 # import json
+#update:2018-06-20
 
 import paramiko
 import logging,types

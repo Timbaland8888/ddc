@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Arthur:Timbaland
-# Date:2017-11-26
+# Date:2018-06-22
 
 # from dateutil import parser
 import MySQLdb,sys, os,time,datetime,re
@@ -119,7 +119,7 @@ while True:
                 # log.logger.debug('debug')
                 print count
                 logger.info(unicode("虚拟机名称："+str(vm_name[vm_id]),'utf-8'))
-                logger.info(unicode("虚拟机信息"+str(result[1])+str('\n'),'utf-8'))
+                logger.info(unicode("虚拟机信息："+str(result[1])+str('\n'),'utf-8'))
                 # log.logger.warning('warning')
                 # log.logger.error('error')
                 # log.logger.critical('critical')
